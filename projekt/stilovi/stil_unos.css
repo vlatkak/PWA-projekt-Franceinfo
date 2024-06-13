@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    overflow-x: hidden;
+}
+#sve{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    width: 230px;
+}
+header{
+    width: 100%;
+    border-bottom: 2px rgb(241, 241, 241) solid;
+    padding: 5px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login_gumb{
+    color: black;
+    background-color: gold;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+#login_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 100%;
+}
+.content_container{
+    width: 70%;
+}
+nav{
+    width: 100%;
+    border-bottom: 2px rgb(241, 241, 241) solid;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_container{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nav_buttons{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.nav_buttons:hover{
+    color: gold
+}
+main{
+    height: calc(100vh - 290px);
+    border: 2px rgb(241, 241, 241) solid;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    margin-top: 30px;
+    overflow-y: auto;
+}
+h1{
+    color: rgb(92, 92, 92);
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#date_picker{
+    width: 110px;
+    border-radius: 5px;
+    border: 1px rgb(92, 92, 92) solid;
+    padding: 2px;;
+}
+select{
+    width: 117px;
+    border-radius: 5px;
+    border: 1px rgb(92, 92, 92) solid;
+    padding: 2px;
+}
+.text_inputs{
+    width: 50%;
+    resize: none;
+    border-radius: 5px;
+    border: 1px rgb(92, 92, 92) solid;
+    padding: 2px;
+}
+#text_input{
+    resize: none;
+    width: 100%;
+}
+textarea{
+    border-radius: 5px;
+    border: 1px rgb(92, 92, 92) solid;
+    padding: 2px;
+}
+.footer_container{
+    width: 70%;
+}
+footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background-color:rgb(92, 92, 92);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#logo_white{
+    width: 140px;
+}
+input[type=file]::file-selector-button{
+    background-color: rgb(92, 92, 92);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+#img_picker_label{
+    margin-bottom: 5px;
+}
+input[type=file]::file-selector-button:hover{
+    background-color: rgb(152, 152, 152);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+#submit_gumb{
+    background-color: gold;
+    color: rgb(92, 92, 92);
+    border: 0;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+    width: 115px;
+    font-weight: bold;
+}
+#submit_gumb:hover{
+    background-color: gold;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+    width: 115px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 900px){
+    .content_container{
+        width: 95%;
+    }
+    .nav_container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    main{
+        height: calc(100vh - 310px);
+        border: 2px rgb(241, 241, 241) solid;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 40px;
+        margin-top: 30px;
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    overflow-x: hidden;
+}
+#sve{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    width: 230px;
+}
+header{
+    width: 100%;
+    border-bottom: 2px rgb(241, 241, 241) solid;
+    padding: 5px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login_gumb{
+    color: black;
+    background-color: gold;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
+#login_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 100%;
+}
+.content_container{
+    width: 70%;
+}
+nav{
+    width: 100%;
+    border-bottom: 2px rgb(241, 241, 241) solid;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_container{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nav_buttons{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.nav_buttons:hover{
+    color: gold
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.article_title{
+    width: 70%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.footer_container{
+    width: 80%;
+}
+footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    background-color:rgb(92, 92, 92);
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#logo_white{
+    width: 140px;
+}
+
+@media only screen and (max-width: 900px){
+    .content_container{
+        width: 95%;
+    }
+    .nav_container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+}
